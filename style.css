@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+    padding : 0;
+    box-sizing: border-box;
+    scroll-behavior : smooth;
+}
+
+
+
+header {
+    background-color : #eae8e3;
+    width : 100%;
+    position : fixed;
+    z-index:999;
+    padding : 10px 50px;
+}
+
+.header1 {
+}
+
+.header2 {
+    justify-content: space-between;
+    display:flex;
+    align-items: center;
+}
+
+.header2 a {
+    text-decoration : none ;
+}
+
+header2 logo img {
+   width: 10%;
+}
+
+header2 logo .span {
+    font-size : 1.1em;
+    font-weight : 500;
+}
+
+.logo {
+    color : #3a6cf4;
+    font-weight:700;
+    font-size : 1.8em;
+}
+
+.logo span {
+    align-content: center;
+}
+.logo img {
+    width:40px;
+    height:40px;
+}
+
+.main {
+   display : flex;
+   padding-top : 80px;
+   text-align: center;
+
+}
+
+.main img {
+    width : 18%;
+    text-align: center;
+}
+.footer {
+    background-color : #eae8e3;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: 200px;
+}
+
+.footer-title img {
+     width : 17px;
+}
+
+.social-icons {
+    padding : 20px 20px ;
+}
+
+.social-icons  a {
+    text-decoration : none ;
+}
+
+.footer-bottom {
+    display:flex;
+    padding : 20px 20px;
+    justify-content: space-between;
+}
