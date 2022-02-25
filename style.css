@@ -10,13 +10,16 @@
 }
 
 
+body {
+    background-color : #E5EFFB;
 
+}
 header {
-    background-color : #eae8e3;
+    /* background-color : #E5EFFB;  #eae8e3 */
     width : 100%;
     position : fixed;
     z-index:999;
-    padding : 10px 50px;
+    padding : 10px 50px 50px 20px;
 }
 
 .header1 {
@@ -56,22 +59,25 @@ header2 logo .span {
 }
 
 .main {
-   display : flex;
-   padding-top : 80px;
-   text-align: center;
-
+   order : 2 ;
+   background-color : #eae8e3;
+   padding : 80px 20px 20px 20px ;
+   width : 100%;
 }
 
 .main img {
     width : 18%;
     text-align: center;
 }
-.footer {
+
+footer {
+
     background-color : #eae8e3;
     clear: both;
     position: relative;
+    bottom:
     height: 200px;
-    margin-top: 200px;
+    margin: 300px 0 0 0;
 }
 
 .footer-title img {
@@ -88,6 +94,7 @@ header2 logo .span {
 
 .footer-bottom {
     display:flex;
-    padding : 20px 20px;
+    padding : 20px 30px 40px 20px;
     justify-content: space-between;
+    margin-bottom : 0;
 }
